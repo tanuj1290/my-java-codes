@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 
 public class removeDuplicates {
@@ -7,7 +8,9 @@ public class removeDuplicates {
         LinkedHashSet<Integer> distincHashSet = new LinkedHashSet<>();
         for (Integer integer : A) {
             distincHashSet.add(integer);
+        
         }
+        ArrayList<Integer> arr=  new ArrayList<>(distincHashSet)
         System.out.println(distincHashSet);
         int[] a = new int[distincHashSet.size()];
         int j = 0;

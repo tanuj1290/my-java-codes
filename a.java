@@ -5,27 +5,13 @@ import java.util.regex.Pattern;
 
 class a {
     public static void main(String[] args) {
-        // str;
-        String A = "aabbccd";
-        int B = 2;
-        // String[] str = a.split(" ");
-        A+='!';
-        int count = 0;
-        String res = "";
-        int i = 0, j = 0;
-        while (j < A.length()) {
-            if (A.charAt(i) == A.charAt(j)) {
-                count++;
-                j++;
-            } else {
-                if (count != B) {
-                    res = res + A.substring(i, j);
-                }
-                i = j;
-                count = 0;
-            }
+        int x = 3;
+        if(x==3){
+            x = 4;
+            System.out.println(x);
         }
-        System.out.println(res);
+        System.out.println(x);
+        // str;
     }
 
 }
