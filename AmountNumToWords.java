@@ -1,4 +1,4 @@
-public class Solution {
+public class AmountNumToWords {
      public static  String numTostr(int n, String s){
         String[] ones = {"","one-","two-","three-","four-","five-","six-","seven-","eight-","nine-","ten-","eleven-","twelve-","thirteen-","fourteen-","fifteen-","sixteen-","seventeen-","eighteen-","nineteen-"};
         String[] tones = {"","","twenty-","thirty-","forty-","fifty-","sixty-","seventy-","eighty-","ninety-"};
